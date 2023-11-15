@@ -5,7 +5,6 @@ write-host "Downloading ADB"
 $DownloadDestinationADB = "$HOME\platform-tools-latest-windows.zip"
 $UnzipDestinationADB = "$HOME\platform-tools-latest-windows"
 $url = "https://dl.google.com/android/repository/platform-tools-latest-windows.zip"
-$start_time = Get-Date
 [string]$sourceDirectory = "$HOME\ADB"
      
 Import-Module BitsTransfer
