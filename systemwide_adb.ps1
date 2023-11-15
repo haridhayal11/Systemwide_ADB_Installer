@@ -30,10 +30,5 @@ Remove-Item $RemoveADBFiles -Recurse -Force
 [Environment]::SetEnvironmentVariable("PATH", "$ENV:PATH;$destinationDirectory", "MACHINE")
 
 # --- complete message --- #
-Write-Host " "
-Write-Host " "
-Write-Host "Completed Installing ADB systemwide" -ForegroundColor Green
-Write-Host " "
-Write-Host " "
-Write-Host "Launch Windows Terminal/Powershell/Command Prompt to use ADB"
-Write-Host " "
+Write-Host "`n`nCompleted Installing ADB systemwide" -ForegroundColor Green
+Write-Host "`n`nLaunch Windows Terminal/Powershell/Command Prompt to use ADB`n"
